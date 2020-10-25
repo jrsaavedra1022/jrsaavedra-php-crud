@@ -41,8 +41,8 @@
 										<form action="" method="post">
 											<input type="hidden" name="uid" value="<?=  $value->id; ?>">
 	<input type="hidden" name="txt_all_data" value='<?= json_encode($value); ?>'>
-	<button formaction="?controller=admin&action=view_edit" class="btn btn-info">Editar</button>
-										<button formaction="?controller=admin&action=delete_user" class="btn btn-danger">Eliminar</button>
+	<button formaction="?controller=gestor&action=view_edit" class="btn btn-info">Editar</button>
+										<button formaction="?controller=gestor&action=delete_user" class="btn btn-danger">Eliminar</button>
 										</form>
 									</div>
 									

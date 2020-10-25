@@ -7,7 +7,7 @@
 				Registrar Usuarios
 			</div>
 			<div class="card-body">
-					<form action="?controller=admin&action=register_user" method="post">
+					<form action="?controller=gestor&action=register_user" method="post">
 						<div class="row">
 							<div class="col">
 								<div class="form-group">

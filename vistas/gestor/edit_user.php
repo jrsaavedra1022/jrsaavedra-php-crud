@@ -7,7 +7,7 @@
 				Registrar Usuarios
 			</div>
 			<div class="card-body">
-					<form action="?controller=admin&action=edit_user" method="post">
+					<form action="?controller=gestor&action=edit_user" method="post">
 						<input type="hidden" name="id" value="<?= $data_edit['id']; ?>">
 						<div class="row">
 							<div class="col">
